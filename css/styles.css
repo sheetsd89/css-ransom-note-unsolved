@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap");
 
 * {
   padding: 0;
@@ -51,254 +52,760 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
+.whyWLetter,
+.didDTwoLetter,
+.becauseALetter,
+.wantedDLetter,
+.skillsILetter {
+  background-color: brown;
+}
+
+.whyHLetter,
+.gardeningDLetter,
+.theyYLetter,
+.improveELetter,
+.theirILetter {
+  background-color: purple;
+}
+.theTLetter,
+.frontendFLetter,
+.gardeningALetter,
+.wantedALetter,
+.improveILetter,
+.theirELetter,
+.skillsKLetter {
+  background-color: pink;
+}
+
+.theELetter,
+.takeELetter,
+.becauseSLetter {
+  text-decoration: underline overline;
+  text-transform: capitalize;
+}
+
+.theHLetter,
+.developerVLetter {
+  background-color: chartreuse;
+}
+
+.frontendNTwoLetter,
+.developerRLetter {
+  background-color: darkgray;
+  color: black;
+}
+
+.theELetter,
+.takeELetter {
+  background-color: cadetblue;
+  font-size: large;
+  font-weight: bolder;
+  color: burlywood;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.developerPLetter,
+.upPLetter,
+.toOLetter {
+  text-decoration: line-through;
+}
+
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter,
+.becauseBLetter,
+.theyTLetter,
+.theirTLetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
+  background-color: purple;
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
-  font-size: 60px;
+  background-color: aquamarine;
+  font-size: 50px;
   font-weight: normal;
   color: coral;
-  text-decoration: none;
+  text-decoration: dashed;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.gardeningILetter,
+.improveRLetter {
+  background-color: blueviolet;
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  text-decoration: double;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .didILetter {
+  background-color: rgb(201, 70, 70);
+  font-size: 58px;
+  font-weight: normal;
+  color: green;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .didDTwoLetter {
+  font-size: 68px;
+  font-weight: 400;
+  color: rgba(0, 0, 0);
+  text-decoration: dotted;
+  text-transform: uppercase;
+  font-family: fantasy;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(215, 80, 0);
+  text-decoration: solid;
+  text-transform: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .theHLetter {
-}
-
-.theELetter {
+  font-size: 55px;
+  font-weight: lighter;
+  color: #6369d4;
+  text-decoration: wavy;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* FRONT-END word */
 
+.frontendRLetter,
+.frontendELetter {
+  background-color: rgb(19, 18, 18);
+  color: aliceblue;
+}
+
+.frontendFLetter,
+.frontendDLetter {
+  color: chocolate;
+}
+
 .frontendFLetter {
+  font-size: 72px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: cursive;
 }
 
 .frontendRLetter {
+  background-color: rgb(19, 18, 18);
+  font-size: 45px;
+  font-weight: 900;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .frontendOLetter {
+  background-color: crimson;
+  font-size: 65px;
+  font-weight: lighter;
+  color: grey;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .frontendNLetter {
+  background-color: cornsilk;
+  font-size: large;
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .frontendTLetter {
+  background-color: darkcyan;
+  font-size: 56px;
+  font-weight: 700;
+  color: brown;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .frontendELetter {
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .frontendNTwoLetter {
+  font-style: italic;
+  font-size: 62px;
+  font-weight: 900;
+  text-decoration: dotted;
+  text-transform: none;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .frontendDLetter {
+  background-color: greenyellow;
+  font-size: 45px;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: "Ceviche One", sans-serif;
 }
 
 /* DEVELOPER word */
 
+.developerELetter,
+.developerETwoLetter,
+.developerEThreeLetter {
+  text-decoration: line-through;
+}
+
 .developerDLetter {
+  background-color: darkmagenta;
+  font-size: 38px;
+  font-weight: normal;
+  color: blue;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .developerELetter {
+  background-color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkorchid;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .developerVLetter {
+  font-size: 68px;
+  font-weight: 700;
+  color: rgb(241, 58, 95);
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Edu VIC WA NT Hand Pre", cursive;
 }
 .developerETwoLetter {
+  background-color: darkgreen;
+  font-size: 56px;
+  font-weight: 900;
+  color: darkred;
+  text-transform: none;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .developerLLetter {
+  background-color: antiquewhite;
+  font-size: 26px;
+  font-weight: bold;
+  color: firebrick;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .developerOLetter {
+  background-color: goldenrod;
+  font-size: 60px;
+  font-weight: 400;
+  color: rgb(87, 1, 1);
+  text-decoration: underline overline;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .developerPLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .developerEThreeLetter {
+  background-color: fuchsia;
+  font-size: 65px;
+  font-weight: 900;
+  color: darkslateblue;
+  text-transform: uppercase;
 }
+
 .developerRLetter {
+  font-size: 45px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* TAKE word */
 
-.takeTLetter {
+.takeTLetter,
+.rootRLetter,
+.skillsSLetter {
+  background-color: cyan;
+  font-size: 69px;
+  font-weight: bold;
+  color: chartreuse;
+  text-decoration: line-through;
+  text-transform: capitalize;
 }
 .takeALetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .takeKLetter {
-}
-.takeELetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 
 /* UP word */
 
-.upULetter {
-}
+.upULetter,
 .upPLetter {
+  font-weight: normal;
+}
+
+.upULetter,
+.toTLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+.upPLetter,
+.toOLetter,
+.hyphen,
+.exclamation-mark,
+.question-mark {
+  background-color: burlywood;
+  font-size: 70px;
+  color: rgb(93, 31, 175);
+  text-transform: capitalize;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 /* GARDENING word */
 
-.gardeningGLetter {
+.gardeningGLetter,
+.gardeningGTwoLetter {
+  background-color: dodgerblue;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: none;
 }
 .gardeningALetter {
+  font-size: 45px;
+  font-weight: 900;
+  color: darkcyan;
+  text-decoration: line-through;
+  text-transform: lowercase;
 }
 .gardeningRLetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .gardeningDLetter {
+  background-color: fuchsia;
+  font-size: 65px;
+  font-weight: 900;
+  color: darkslateblue;
+  text-transform: uppercase;
 }
 .gardeningELetter {
+  background-color: cyan;
+  font-size: 69px;
+  font-weight: bold;
+  color: chartreuse;
+  text-decoration: line-through;
+  text-transform: capitalize;
 }
 .gardeningNLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
-.gardeningILetter {
-}
+
 .gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+  background-color: dodgerblue;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: none;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  background-color: crimson;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
+
 .becauseELetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .becauseCLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 .becauseALetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
+
 .becauseULetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .becauseSLetter {
+  background-color: crimson;
+  font-size: 56px;
+  font-weight: lighter;
+  color: grey;
+  text-transform: lowercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .becauseETwoLetter {
+  background-color: crimson;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  background-color: darkred;
 }
 .theyHLetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .theyELetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .theyYLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .wantedALetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .wantedNLetter {
+  background-color: red;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-decoration: overline;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .wantedTLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .wantedELetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 .wantedDLetter {
+  background-color: crimson;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
 
 /* TO word */
 
-.toTLetter {
-}
-.toOLetter {
-}
-
 /* IMPROVE word */
 
 .improveILetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .improveMLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .improvePLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
-.improveRLetter {
-}
+
 .improveOLetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .improveVLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .improveELetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  background-color: fuchsia;
 }
 .theirHLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .theirELetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .theirILetter {
+  background-color: crimson;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
 .theirRLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* ROOT word */
 
-.rootRLetter {
-}
 .rootOLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .rootOTwoLetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .rootTLetter {
+  background-color: darkolivegreen;
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Piazolla", sans-serif;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  background-color: darkolivegreen;
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(215, 80, 0);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: "Alumni Sans SC", sans-serif;
 }
 .skillsKLetter {
+  background-color: crimson;
+  font-size: 36px;
+  font-weight: bold;
+  color: darkkhaki;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
 .skillsILetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Piazolla", sans-serif;
 }
 .skillsLLetter {
+  background-color: dimgray;
+  font-size: 56px;
+  font-weight: 900;
+  color: brown;
+  text-decoration: double;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
 }
 .skillsLTwoLetter {
+  background-color: azure;
+  font-size: 46px;
+  font-weight: 700;
+  color: #6369d4;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .skillsSTwoLetter {
+  background-color: chocolate;
+  font-size: 40px;
+  color: aqua;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 
 /* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
-}
